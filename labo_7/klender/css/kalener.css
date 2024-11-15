@@ -1,0 +1,28 @@
+table {
+    border: 3px solid #000;
+}
+
+th {
+    background-color: rgb(255, 220, 220);
+}
+
+thead > tr > td {
+    color: rgb(170,170,200) ;
+    background-color: rgb(35,37,70);
+}
+
+tbody td:first-child {
+    background-color: gray;
+}
+
+
+tbody td:last-child {
+    background-color: red;
+}
+
+tbody > tr > .AndereMaand {
+    background-color: #666666;
+}
+.VrijeDag {
+    background-color: rgb(255, 220, 220);
+}
