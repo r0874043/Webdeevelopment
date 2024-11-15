@@ -1,0 +1,18 @@
+body{
+    width: 95%;
+    font-family: Verdana,sans-serif;
+}
+h1{
+    background-color: #8D99AE;
+    height: 50px;
+    text-align: center;
+}
+a:hover{
+    color: #EF233C;
+    background-color: black;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
