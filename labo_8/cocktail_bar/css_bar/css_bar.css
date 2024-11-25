@@ -1,0 +1,55 @@
+body{
+    width: 95%;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+h1 , h2{
+    color: #007e7e;
+}
+#guarantee{
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: dashed white 2px;
+    height: auto;
+
+}
+.zwart{
+ color: black;
+}
+.rood{
+    color: #EF233C;
+}
+.weeklySpacial{
+    float: right;
+    width: 25%;
+    border: solid black 1px;
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 25px;
+    text-align: center;
+}
+article , footer{
+    float: left;
+    width: 70%;
+}
+header{
+    text-align: center;
+}
+.roodback:hover{
+    background-color: red;
+}
+
+footer {
+    float:left;
+    font-size: 50%;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+.img{
+    float: left;
+
+}
