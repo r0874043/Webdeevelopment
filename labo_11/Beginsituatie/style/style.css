@@ -9,7 +9,7 @@ section div {
 }
 .container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
@@ -18,22 +18,22 @@ section div {
 .item-1 {
     background: #b03532;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 5;
 }
 .item-2 {
     background: #33a8a5;
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
 }
 .item-3 {
     background: #30997a;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 5;
 }
 .item-4 {
     background: #6a478f;
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
 }
 .item-5 {
     background: #da6f2b;
@@ -41,7 +41,7 @@ section div {
 .item-6 {
     background: #3d8bb1;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 5;
 
 }
 .item-7 {
@@ -51,8 +51,8 @@ section div {
 }
 .item-8 {
     background: #59a627;
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
 }
 .item-9 {
     background: #4464a1;
@@ -60,6 +60,54 @@ section div {
     grid-row-end: 2;
 }
 
-@media screen and(max-width: 750){
+@media screen and(max-width: 750px){
+    .container{
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 
+    /* specific item styles */
+
+
+    .item-2 {
+        background: #33a8a5;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .item-3 {
+        background: #30997a;
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    .item-4 {
+        background: #6a478f;
+        grid-column-start: 5;
+        grid-column-end: 6;
+    }
+    .item-5 {
+        background: #da6f2b;
+            grid-column-start: 2;
+            grid-column-end: 3;
+    }
+    .item-6 {
+        background: #3d8bb1;
+        grid-column-start: 2;
+        grid-column-end: 5;
+
+    }
+    .item-7 {
+        background: #e03f3f;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .item-8 {
+        background: #59a627;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .item-9 {
+        background: #4464a1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
 }
