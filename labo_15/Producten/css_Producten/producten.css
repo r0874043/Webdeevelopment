@@ -1,0 +1,11 @@
+table{
+    border: solid 1px black;
+    width: 40%;
+    height: 100px;
+}
+td , th{
+    border: solid 1px black;
+}
+td> input{
+    width: 97%;
+}
