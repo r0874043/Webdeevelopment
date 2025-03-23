@@ -31,4 +31,4 @@ window.addEventListener("load", function () {
     // Voeg event listeners toe aan de knoppen
     document.getElementById("button").addEventListener("click", telMetIndexOf);
     document.getElementById("button2").addEventListener("click", telMetLastIndexOf);
-});
+})
