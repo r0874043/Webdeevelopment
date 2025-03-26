@@ -15,7 +15,7 @@ const setup = () => {
     document.head.appendChild(style)
 
     const img = document.createElement("img");
-    img.setAttribute("src","imgs/manunt.png" )
+    img.setAttribute("src","imgs/Manunt.png" )
     const newLi = document.createElement("li");
     newLi.appendChild(img);
 
